@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     %% Define Lane Subgraphs to simulate Kanban state boundaries
     subgraph Backlog [1. Backlog / Todo Pool]
