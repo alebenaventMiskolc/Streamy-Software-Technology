@@ -1,3 +1,21 @@
+# Streamy Backend Dynamic Behavioral Modeling 
+
+ 
+
+## System Architecture Interaction Streams 
+
+ 
+
+### 1. Architectural Core Mechanics 
+
+This tracking document details how application payloads pass between data layers before structural code layers are compiled. By designing how inputs move through software boundaries beforehand, we ensure development velocity remains high. 
+
+ 
+
+### 2. Media Playback Transaction Loop 
+
+The sequence model below outlines how the system validates viewer access permissions before initiating video file playback: 
+
 ```mermaid
 sequenceDiagram 
     actor Viewer as 👤 Platform Viewer 
